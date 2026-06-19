@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoja de Vida - Roman Arango | Programador Junior</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet" />
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="container">
+        
+        <div class="top-bar">
+            <div class="explorer-group">
+                <div class="explorer-badge">
+                    <i class="fas fa-folder-open"></i> EXPLORER
+                </div>
+                <div class="search-wrapper">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Buscar..." id="searchInput" />
+                </div>
+            </div>
+            <div class="proyecto-tag">
+                <i class="fas fa-code-branch"></i> PROYECTOHOJA
+            </div>
+        </div>
+
+        
+        <div class="main-grid">
+            
+            <div class="profile-card">
+                <div class="avatar-frame">
+                    <div class="avatar">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h2 class="profile-name">Roman Arango</h2>
+                    <span class="profile-title">Programador Junior</span>
+                    <div class="badge-skill">
+                        <span><i class="fab fa-java"></i> Java</span>
+                        <span><i class="fab fa-html5"></i> HTML5</span>
+                        <span><i class="fab fa-css3-alt"></i> CSS3</span>
+                        <span><i class="fab fa-js"></i> JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="info-list">
+                    <div class="info-item">
+                        <i class="fas fa-map-pin"></i>
+                        <span><span class="label">Ubicación</span> Sogamoso, CO</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span><span class="label">Experiencia</span> Estudiante activo</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span><span class="label">Educación</span> Ing. Sistemas - cuarto Semestre</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span><span class="label">Email</span> romanarango.ro@gmail.com</span>
+                    </div>
+                </div>
+
+                
+                <div style="display: flex; justify-content: center; margin-top: 1.2rem;">
+                    <button class="action-btn" id="saludarBtn">
+                        <i class="fas fa-hand-peace"></i> Decir ¡Hola!
+                    </button>
+                </div>
+            </div>
+
+            
+            <div class="content-main">
+                
+                <div class="intro-text">
+                    <div class="section-title">
+                        <i class="fas fa-user-tie"></i> ¿Quién soy?
+                    </div>
+                    <p>
+                        Soy un <span class="highlight">programador junior</span> apasionado por el desarrollo de software. 
+                        Actualmente curso <span class="highlight">cuarto semestre de Ingeniería de Sistemas</span> 
+                        y busco mi primera oportunidad laboral para aplicar lo aprendido y seguir creciendo profesionalmente.
+                    </p>
+                    <p>
+                        Manejo <span class="highlight">Java</span> con Programación Orientada a Objetos, 
+                        <span class="highlight">persistencia de datos</span> con CSV y JSON, y 
+                        <span class="highlight">interfaces gráficas</span> con Swing y JavaFX. 
+                        También tengo conocimientos básicos de <span class="highlight">HTML, CSS y JavaScript</span>.
+                    </p>
+                    <p style="margin-top: 0.4rem; font-size: 0.9rem; color: #3f4d6e;">
+                        <i class="fas fa-quote-left" style="color: #3b6eff; opacity: 0.6; margin-right: 6px;"></i>
+                        Dispuesto a aprender, colaborar y aportar soluciones desde el primer día.
+                    </p>
+                </div>
+
+                
+                <div class="vision-grid">
+                    <div class="vision-card">
+                        <h4><i class="fab fa-java"></i> Java y POO</h4>
+                        <p>Programación Orientada a Objetos: clases, herencia, polimorfismo, encapsulamiento y manejo de excepciones.</p>
+                    </div>
+                    <div class="vision-card">
+                        <h4><i class="fas fa-file-alt"></i> Persistencia de Datos</h4>
+                        <p>Manejo de archivos CSV y JSON para guardar y recuperar información de manera estructurada.</p>
+                    </div>
+                    <div class="vision-card">
+                        <h4><i class="fas fa-window-maximize"></i> Interfaces Gráficas</h4>
+                        <p>Desarrollo de aplicaciones de escritorio con Java Swing y JavaFX.</p>
+                    </div>
+                    <div class="vision-card">
+                        <h4><i class="fas fa-code"></i> Web Básico</h4>
+                        <p>Maquetación con HTML5, CSS3 y JavaScript para crear páginas web simples e interactivas.</p>
+                    </div>
+                </div>
+
+                
+                <div class="projects-preview">
+                    <div class="section-title" style="margin-bottom: 0.2rem;">
+                        <i class="fas fa-project-diagram"></i> Proyectos Realizados
+                    </div>
+                    <div class="project-item">
+                        <i class="fas fa-hospital"></i>
+                        <div class="info">
+                            <span class="name">Sistema de Órdenes Médicas</span>
+                            <span class="desc">Aplicación Java con POO, JavaFX para interfaz gráfica y persistencia en JSON Y CSV para gestionar órdenes médicas.</span>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <i class="fas fa-file-code"></i>
+                        <div class="info">
+                            <span class="name">Hoja de Vida - Página Web</span>
+                            <span class="desc">Página web desarrollada con HTML5, CSS3 y JavaScript para presentar mi perfil profesional.</span>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <i class="fas fa-book"></i>
+                        <div class="info">
+                            <span class="name">Sistema de Biblioteca</span>
+                            <span class="desc">Aplicación Java con POO, JavaFX para interfaz gráfica y persistencia en JSON para gestionar libros y préstamos.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="footer-note">
+            <i class="fas fa-code"></i> Hoja de vida · Programador Junior · 4to Semestre
+        </div>
+    </div>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
